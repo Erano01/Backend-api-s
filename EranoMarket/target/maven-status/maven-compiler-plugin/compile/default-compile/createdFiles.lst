@@ -1,9 +1,0 @@
-me\EranoMarket\com\model\Account.class
-me\EranoMarket\com\Service\AuthenticationService.class
-me\EranoMarket\com\repository\UserRepository.class
-me\EranoMarket\com\model\Role.class
-me\EranoMarket\com\model\User.class
-me\EranoMarket\com\controller\HelloController.class
-me\EranoMarket\com\model\LeagueAccount.class
-me\EranoMarket\com\Application.class
-me\EranoMarket\com\config\AppConfiguration.class
