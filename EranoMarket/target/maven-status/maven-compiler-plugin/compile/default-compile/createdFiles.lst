@@ -1,0 +1,5 @@
+me\EranoMarket\com\model\Role.class
+me\EranoMarket\com\model\User.class
+me\EranoMarket\com\bootstrap\DataInitializer.class
+me\EranoMarket\com\Application.class
+me\EranoMarket\com\repository\UserRepository.class
