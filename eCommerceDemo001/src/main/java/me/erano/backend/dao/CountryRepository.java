@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import me.erano.backend.entity.Country;
 
+// localhost/api/countries
+// localhost/api/countries/4
 @CrossOrigin("http://localhost:4200")
 @RepositoryRestResource(collectionResourceRel = "countries", path = "countries")
 public interface CountryRepository extends JpaRepository<Country, Integer> {

@@ -1,6 +1,6 @@
 package me.erano.backend.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -23,6 +23,7 @@ public class CheckoutController {
 		this.checkoutService = checkoutService;
 	}
 	
+	//bir adet contente uygun json postlarsak bize bir UUID döndürecek.
 	@PostMapping("/purchase")
 	public PurchaseResponse placeOrder(@RequestBody Purchase purchase) {
 		PurchaseResponse purchaseResponse = checkoutService.placeOrder(purchase);

@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import me.erano.backend.entity.State;
 
+
+// api/states/search/findByCountryCode?code=IN
+// api/states/search/findByCountryCode?code=US
 @CrossOrigin("http://localhost:4200")
 @RepositoryRestResource
 public interface StateRepository extends JpaRepository<State, Integer> {

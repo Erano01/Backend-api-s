@@ -23,4 +23,6 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
 	//Select * from Product p where p.name like concat('%',:name,'%')
 	
 	
+	//Page<Product> findByNameDescription(@Param("description") String name,Pageable pageable);
+	
 }
